@@ -48,7 +48,14 @@ const styles = StyleSheet.create({
   },
   containerCentrar: {
     alignSelf: 'center',
-  }
+  },
+  topBar: {
+    position: 'absolute',
+    height: 30,
+  },
+    navigationContainer: {
+    backgroundColor: '#ecf0f1',
+  },
 });
 
 export default styles;
